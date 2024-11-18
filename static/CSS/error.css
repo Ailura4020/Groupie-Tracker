@@ -1,0 +1,63 @@
+/* Polices d'écritures importées */
+@font-face {
+  font-family: "JetBrainMedium";
+  src: url("../static/font/JetBrainsMono-Medium.ttf");
+}
+@font-face {
+  font-family: "JetBrainBold";
+  src: url("../static/font/JetBrainsMono-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Artista";
+  src: url("../static/font/Arista-Pro-Bold-trial.ttf");
+}
+
+body {
+  background-image: url("/static/image/vinil2.png");
+  backdrop-filter: blur(1px);
+  background-color: rgba(39, 39, 39, 0.562);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+/* Mise en place des grille et division de la page */
+.wrapper {
+  display: grid;
+  grid-template-columns: 5% 240px 5% 1fr 5%;
+  grid-gap: 15px;
+  grid-auto-rows: minmax(150px, auto);
+}
+
+/* Div de la combinaison logo - titre */
+.LogoTitle {
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+.Logo {
+  width: clamp(40px, 4vw, 40px);
+  margin-right: 10px;
+  margin-left: 3%;
+  margin-bottom: 10px;
+}
+.Title {
+  font-family: "Artista";
+  -webkit-text-stroke: 0.5px rgb(24, 146, 99);
+  font-size: 4vw;
+  color: transparent;
+  background: linear-gradient(to right, rgb(87, 241, 87), rgb(30, 236, 209));
+  background-clip: text;
+  margin-right: 30px;
+}
+.Title:hover {
+  cursor: pointer;
+}
+
+.error {
+  text-align: center;
+  font-size: 2vw;
+  color: white;
+  font-family: "JetBrainBold";
+}

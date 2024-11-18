@@ -1,0 +1,367 @@
+[
+  {
+    "id": 1,
+    "image": "https://groupietrackers.herokuapp.com/api/images/queen.jpeg",
+    "name": "Queen",
+    "style": "Rock",
+    "bio": "Queen is a British rock band formed in London in 1970. The original lineup consisted of Freddie Mercury (lead vocals, piano), Brian May (guitar, vocals), John Deacon (bass guitar), and Roger Taylor (drums, vocals). Queen gained popularity in the mid-1970s with their unique sound that combined elements of rock, opera, and heavy metal. They are known for their anthemic songs, elaborate live performances, and Mercury's powerful and flamboyant stage presence. Queen's most successful singles include 'Bohemian Rhapsody', 'We Will Rock You', 'We Are the Champions', and 'Another One Bites the Dust'. The band has sold over 170 million records worldwide, making them one of the best-selling music artists of all time."
+  },
+  {
+    "id": 2,
+    "image": "https://groupietrackers.herokuapp.com/api/images/soja.jpeg",
+    "name": "SOJA",
+    "style": "Reggae",
+    "bio": "SOJA is a Grammy-nominated reggae band from Washington D.C. The band was formed in 1997 by Jacob Hemphill, Bob Jefferson, Ryan Berty, Ken Brownell, Patrick O'Shea, Hellman Escorcia, Rafael Rodriguez, and Trevor Young. SOJA's music combines elements of reggae, rock, hip hop, and jazz, and their lyrics often address social and political issues. The band has released seven studio albums, including 'Strength to Survive' (2012), 'Amid the Noise and Haste' (2014), and 'Poetry in Motion' (2017). SOJA has gained a large following in the United States and abroad, and they have toured extensively in Europe, Latin America, and Australia."
+  },
+  {
+    "id": 3,
+    "image": "https://groupietrackers.herokuapp.com/api/images/pinkfloyd.jpeg",
+    "name": "Pink Floyd",
+    "style": "Rock",
+    "bio": "Pink Floyd were an English rock band formed in London in 1965. The band initially consisted of Syd Barrett (guitar, vocals), Nick Mason (drums), Roger Waters (bass, vocals), and Richard Wright (keyboards, vocals). Pink Floyd are known for their progressive and psychedelic sound, which often featured extended instrumental sections and elaborate stage productions. After Barrett's departure in 1968, David Gilmour joined the band as lead guitarist and vocalist. Pink Floyd's most successful albums include 'The Dark Side of the Moon' (1973), 'Wish You Were Here' (1975), 'Animals' (1977), and 'The Wall' (1979). The band has sold over 250 million records worldwide, making them one of the best-selling music artists of all time."
+  },
+  {
+    "id": 4,
+    "image": "https://groupietrackers.herokuapp.com/api/images/scorpions.jpeg",
+    "name": "Scorpions",
+    "style": "Hard Rock",
+    "bio": "Scorpions are a German rock band formed in Hanover in 1965. The band has undergone several lineup changes, with Klaus Meine (lead vocals), Rudolf Schenker (rhythm guitar), Matthias Jabs (lead guitar), Pawel Maciwoda (bass), and Mikkey Dee (drums) being the current members. Scorpions are known for their hard rock and heavy metal sound, which often features powerful guitar riffs and soaring vocals. They have released over 20 studio albums, including 'Lovedrive' (1979), 'Blackout' (1982), 'Love at First Sting' (1984), and 'Crazy World' (1990). Scorpions have sold over 100 million records worldwide, making them one of the most successful rock bands of all time."
+  },
+  {
+    "id": 5,
+    "image": "https://groupietrackers.herokuapp.com/api/images/xxxtentacion.jpeg",
+    "name": "XXXTentacion",
+    "style": "Rap",
+    "bio": "XXXTentacion was an American rapper, singer, and songwriter from Plantation, Florida. He was born Jahseh Dwayne Ricardo Onfroy on January 23, 1998, and gained popularity in 2016 with the release of his debut album '17'. XXXTentacion's music was known for its emotional intensity and genre-blending style, which combined elements of hip hop, rock, and R&B. He released two more studio albums, '?' (2018) and 'Skins' (2018), before his tragic death in 2018. XXXTentacion's music has been certified multi-platinum and he has won several awards, including the BET Hip Hop Award for Best New Artist."
+  },
+  {
+    "id": 6,
+    "image": "https://groupietrackers.herokuapp.com/api/images/macmiller.jpeg",
+    "name": "Mac Miller",
+    "style": "Rap",
+    "bio": "Malcolm James McCormick, known professionally as Mac Miller, was an American rapper, singer, and record producer. Born in Pittsburgh, Pennsylvania, Miller began his career in the city's hip hop scene in 2007, at the age of fifteen. In 2010, he signed a record deal with Pittsburgh-based Rostrum Records, and released his debut studio album, Blue Slide Park, in 2011."
+  },
+  {
+    "id": 7,
+    "image": "https://groupietrackers.herokuapp.com/api/images/joynerlucas.jpeg",
+    "name": "Joyner Lucas",
+    "style": "Rap",
+    "bio": "Gary Maurice Lucas Jr., known professionally as Joyner Lucas, is an American rapper, singer, songwriter, record producer, and poet. Born in Worcester, Massachusetts, Lucas began rapping in 2007. He gained widespread recognition in 2015 following the release of his single 'Ross Capicchioni'."
+  },
+  {
+    "id": 8,
+    "image": "https://groupietrackers.herokuapp.com/api/images/kencricklamar.jpeg",
+    "name": "Kendrick Lamar",
+    "style": "Rap",
+    "bio": "Kendrick Lamar Duckworth is an American rapper, songwriter, and record producer. He is often regarded as one of the most influential rappers of his generation. Raised in Compton, California, Lamar embarked on his musical career as a teenager under the stage name K-Dot, releasing a mixtape that garnered local attention and led to his signing with indie record label Top Dawg Entertainment."
+  },
+  {
+    "id": 9,
+    "image": "https://groupietrackers.herokuapp.com/api/images/acdc.jpeg",
+    "name": "ACDC",
+    "style": "Rock",
+    "bio": "ACDC is an Australian rock band formed in Sydney in 1973 by brothers Malcolm and Angus Young. Although the band are frequently classified as hard rock and heavy metal, they have always classified their music as simply 'rock and roll'."
+  },
+  {
+    "id": 10,
+    "image": "https://groupietrackers.herokuapp.com/api/images/pearljam.jpeg",
+    "name": "Pearl Jam",
+    "style": "Rock",
+    "bio": "Pearl Jam est un groupe de rock américain, originaire de Seattle, ville de l'État de Washington. Formé en 1990, par le guitariste Stone Gossard et le bassiste Jeff Ament, Pearl Jam est l'un des groupes les plus populaires du mouvement grunge, formant ainsi aux côtés de Soundgarden, Nirvana et Alice in Chains le Big Four of Seattle. En 2005, les lecteurs du USA Today élisent Pearl Jam « meilleur groupe américain de rock »1. Outre leur engagement scénique, le quintet de Seattle s'est fait remarquer par son engagement politique anti-Bush et humanitaire."
+  },
+  {
+    "id": 11,
+    "image": "https://groupietrackers.herokuapp.com/api/images/katyperry.jpeg",
+    "name": "Katy Perry",
+    "style": "Pop",
+    "bio": "Katy Perry devient célèbre en 2008 avec la sortie de son deuxième album, un disque de pop rock intitulé One of the Boys, et des singles I Kissed a Girl et Hot n Cold. Son troisième album, Teenage Dream (2010), est plus pop et est son premier album en tête du Billboard 200. Elle domine le Billboard Hot 100 avec les singles California Gurls, Teenage Dream, Firework, ET et Last Friday Night (TGIF) tandis que The One that Got Away atteint la troisième place du Billboard. L'album devient le premier par une artiste féminine à comprendre cinq chansons (six, si l'on compte la réédition de 2011) classées numéro un aux États-Unis et le deuxième en nombre de numéros un après l'album de Michael Jackson, Bad. En mars 2012, elle réédite l'album Teenage Dream: The Complete Confection, qui a produit les chansons Part of Me et Wide Awake."
+  },
+  {
+    "id": 12,
+    "image": "https://groupietrackers.herokuapp.com/api/images/rihanna.jpeg",
+    "name": "Rihanna",
+    "style": "Pop, R&B",
+    "bio": "Rihanna est l'artiste qui compte le plus grand nombre de certifications de singles. Elle est aussi la première artiste au monde à franchir le cap de 100 millions de ventes numériques aux États-Unis2. Elle est également une des artistes solo ayant vendu le plus de disques au monde, comptant 280 millions d'albums et de singles vendus depuis le début de sa carrière en 20053. Elle dénombre également 251 millions de téléchargements et sonneries, ce qui en fait l'artiste comptant le plus de ventes en numérique de tous les temps4. En 2016, elle devient la seconde artiste à détrôner les Beatles (derrière Mariah Carey) en portant à 60 semaines le temps total passé en tête du classement américain avec ses chansons5."
+  },
+  {
+    "id": 13,
+    "image": "https://groupietrackers.herokuapp.com/api/images/genesis.jpeg",
+    "name": "Genesis",
+    "style": "Rock",
+    "bio": "Genesis est un groupe britannique de rock, considéré comme un des pionniers du genre progressif. Il connaît un succès important à partir des années 1970, culminant dans les décennies 1980 et 1990. Peter Gabriel, puis le batteur Phil Collins après le départ du premier en 1975, sont au chant les figures emblématiques du groupe. Avec environ 150 millions d'albums vendus à travers le monde, Genesis se classe parmi les trente artistes et groupes ayant vendu le plus d'albums de tous les temps1. Le groupe figure depuis 2010 au Rock and Roll Hall of Fame."
+  },
+  {
+    "id": 14,
+    "image": "https://groupietrackers.herokuapp.com/api/images/philcollins.jpeg",
+    "name": "Phil Collins",
+    "style": "Rock",
+    "bio": "Phil Collins est un auteur-compositeur-interprète, acteur et producteur britannique, né le 30 janvier 1951 à Chiswick dans le borough londonien de Hounslow (Angleterre). Connu en tant que batteur et chanteur du groupe Genesis, il a eu une carrière solo prolifique, de 1981 à 1996, il mène en parallèle ces deux carrières. C'est également un musicien accompli qui joue de plusieurs instruments : la batterie et les percussions sont ses instruments de base, mais il joue aussi des claviers, de la guitare et de la basse."
+  },
+  {
+    "id": 15,
+    "image": "https://groupietrackers.herokuapp.com/api/images/ledzeppelin.jpeg",
+    "name": "Led Zeppelin",
+    "style": "Rock",
+    "bio": "Led Zeppelin [lɛd ˈzɛpələn]1 est un groupe britannique de rock, originaire de Londres, en Angleterre. Il est fondé en 1968 par Jimmy Page (guitare), avec Robert Plant (chant), John Paul Jones (basse, guitare acoustique, mandoline, claviers) et John Bonham (batterie), et dissous à la suite de la mort de ce dernier, en 1980. À travers un son dominé par la virtuosité et les riffs de son guitariste, la voix puissante de son chanteur pouvant aller jusqu'à des octaves très élevées, par l'excellence de son bassiste/claviériste/arrangeur ainsi que par la technique, le groove et l'inimitable et si souvent samplée « force de frappe » de son batteur, Led Zeppelin est toujours considéré, plus de quarante ans après sa séparation, comme l'un des plus grands groupes de rock tant pour sa réussite artistique, son succès commercial que pour son influence et son prestige."
+  },
+  {
+    "id": 16,
+    "image": "https://groupietrackers.herokuapp.com/api/images/jimihendrix.jpeg",
+    "name": "The Jimi Hendrix\n Experience",
+    "style": "Rock",
+    "bio": "James Marshall Hendrix, né Johnny Allen Hendrix le 27 novembre 1942 à Seattle (Washington) et mort le 18 septembre 1970 à Londres (Angleterre), plus connu sous le nom de Jimi Hendrix (/ˈd͡ʒɪmi ˈhɛndɹɪks/1), est un guitariste, auteur-compositeur et chanteur américain, fondateur du groupe The Jimi Hendrix Experience, actif de 1966 à 1970."
+  },
+  {
+    "id": 17,
+    "image": "https://groupietrackers.herokuapp.com/api/images/beegees.jpeg",
+    "name": "Bee Gees",
+    "style": "Pop",
+    "bio": "Bee Gees est un groupe australo-britannique de pop. Il est formé en 1958 à Brisbane (Queensland) en Australie par trois des frères Gibb, originaires de Douglas (île de Man) au Royaume-Uni : Barry et les jumeaux Robin et Maurice, initialement associés à un guitariste (Vince Melouney) et un batteur (Colin Petersen puis Geoff Brigford), tous australiens. Le total des ventes de disques du groupe sur toute sa carrière est estimé à 220 millions1, faisant de lui l'un des plus grands vendeurs de disques."
+  },
+  {
+    "id": 18,
+    "image": "https://groupietrackers.herokuapp.com/api/images/deeppurple.jpeg",
+    "name": "Deep Purple",
+    "style": "Rock",
+    "bio": "Au cours de ses six décennies d'existence, le groupe est toujours constitué de cinq musiciens : un chanteur, un guitariste, un bassiste, un claviériste et le batteur Ian Paice qui demeure le seul membre constant du groupe. Mais il connait plusieurs changements de personnel qui déterminent son évolution musicale. Les éléments caractéristiques du son de Deep Purple durant la majeure partie de son existence sont la guitare Fender Stratocaster de Ritchie Blackmore et l'orgue Hammond de Jon Lord. Deep Purple est un des plus grands groupes de rock britannique et a vendu depuis sa fondation environ 130 millions de disques à travers le monde."
+  },
+  {
+    "id": 19,
+    "image": "https://groupietrackers.herokuapp.com/api/images/aerosmith.jpeg",
+    "name": "Aerosmith",
+    "style": "Rock",
+    "bio": "Aerosmith est un groupe rock américain originaire de Boston dans le Massachusetts. Formé en 1970, ses membres sont parfois appelés « Les Bad Boys de Boston »7. Son style hard rock1,2, typique des années 1970, enraciné dans le blues, en est venu à également intégrer des éléments de pop8, de metal1 et de rhythm and blues9, et a inspiré de nombreux artistes de rock et de metal ultérieurs10."
+  },
+  {
+    "id": 20,
+    "image": "https://groupietrackers.herokuapp.com/api/images/direstraits.jpeg",
+    "name": "Dire Straits",
+    "style": "Rock",
+    "bio": "Dire Straits est un groupe britannique de rock créé à Deptford (borough londonien de Lewisham) durant l'été 1977 par Mark Knopfler (guitare solo et chant), son frère David Knopfler (guitare rythmique), John Illsley (basse) et Pick Withers (batterie). Considéré comme l'un des plus grands groupes rock des années 1980, Dire Straits vend plus de 140 millions d'albums depuis ses débuts1."
+  },
+  {
+    "id": 21,
+    "image": "https://groupietrackers.herokuapp.com/api/images/mamonasassassinas.jpeg",
+    "name": "Mamonas Assassinas",
+    "style": "Rock",
+    "bio": "Mamonas Assassinas est un groupe de musique brésilien de rock, originaire de Guarulhos. Ils connurent un grand succès au milieu des années 1990 avec leurs chansons humoristiques et satiriques. Ils vendirent plus de 2 millions d'exemplaires de leur premier album. Au sommet de sa carrière, le groupe fut victime d'un accident d'avion où ils trouvèrent tous la mort le 2 mars 1996. Ils n'auront connu que 7 mois d'activité et de succès sous ce nom. La mort de ces cinq artistes laisse le Brésil dans un émoi national considérable, deux ans après la mort tragique d’Ayrton Senna. Dans la semaine, près de 82 000 personnes ont tenu une minute de silence dans le stade mythique du Maracanã lors du match opposant le Flamengo au Botafogo."
+  },
+  {
+    "id": 22,
+    "image": "https://groupietrackers.herokuapp.com/api/images/30.jpeg",
+    "name": "Thirty Seconds to Mars",
+    "style": "Rock",
+    "bio": "Thirty Seconds to Mars (commonly stylized as 30 Seconds to Mars) is an American rock band from Los Angeles, California, formed in 1998. The band consists of brothers Jared Leto (lead vocals, guitar, bass, keyboards) and Shannon Leto (drums, percussion). During the course of its existence, it has undergone various line-up changes with the Leto brothers being the only consistent members."
+  },
+  {
+    "id": 23,
+    "image": "https://groupietrackers.herokuapp.com/api/images/imagineDragons.jpeg",
+    "name": "Imagine Dragons",
+    "style": "Pop Rock",
+    "bio": "Imagine Dragons est un groupe de pop rock américain, originaire de Las Vegas dans le Nevada, et formé en 2008. Avec cinq albums au total, le groupe totalise 74 millions d’albums vendus et 160 milliards de streams dans le monde entier13. Remportant trois American Music Awards, dix Billboard Music Awards et un Grammy Award, Imagine Dragons est devenu l'un des groupes de pop-rock les plus emblématiques de cette dernière décennie14."
+  },
+  {
+    "id": 24,
+    "image": "https://groupietrackers.herokuapp.com/api/images/juiceWrld.jpeg",
+    "name": "Juice Wrld",
+    "style": "Rap",
+    "bio": "Juice Wrld, stylisé Juice WRLD, de son vrai nom Jarad Anthony Higgins, né le 2 décembre 1998 à Chicago (Illinois) et mort le 8 décembre 2019 à Oak Lawn (près de Chicago), est un rappeur, chanteur, parolier, compositeur et musicien américain. Le grand public a principalement fait sa connaissance grâce à son single Lucid Dreams (en) sorti en 2017 et de All Girls Are the Same sorti officiellement en 2018. Les albums Legends Never Die et Fighting Demons sortent après sa mort."
+  },
+  {
+    "id": 25,
+    "image": "https://groupietrackers.herokuapp.com/api/images/logic.jpeg",
+    "name": "Logic",
+    "style": "Rap",
+    "bio": "Logic, de son vrai nom Sir1 Robert Bryson Hall II2,3, né le 22 janvier 1990 à Gaithersburg dans le Maryland, est un rappeur américain. Il compte beaucoup de followers sur Internet et est membre du RattPack, un groupe d'amis avec lequel il travaille. Il publie officiellement quatre mixtapes, ainsi que trois albums studio. Membre des labels Visionary Music Group et Def Jam Records, il publie son premier album solo intitulé Under Pressure le 21 octobre 2014."
+  },
+  {
+    "id": 26,
+    "image": "https://groupietrackers.herokuapp.com/api/images/alecBeenjamin.jpeg",
+    "name": "Alec Benjamin",
+    "style": "Pop",
+    "bio": "Alec Benjamin, de son nom complet Alec Shane Benjamin, né le 28 mai 1994 aux Phoenix en Arizona, aux États-Unis, est un chanteur et auteur-compositeur-interprète américain1 Son single Let Me Down Slowly, sorti en 2018, atteint le top 40 dans plus de 25 pays et accumule plus de 1,3 milliards d'écoutes sur Spotify en juillet 2023."
+
+  },
+  {
+    "id": 27,
+    "image": "https://groupietrackers.herokuapp.com/api/images/bobbyMcFerrin.jpeg",
+    "name": "Bobby McFerrins",
+    "style": "Jazz",
+    "bio": "Ses parents étaient chanteurs : son père, Robert McFerrin Sr. (en), est le premier chanteur d'opéra afro-américain à chanter au Metropolitan Opera de New York1. Il a aussi collaboré avec d'autres grands musiciens de jazz comme le pianiste Chick Corea, ou de classique comme le violoncelliste Yo-Yo Ma. Il a de plus travaillé avec George Martin en enregistrant une chanson des Beatles avec l'acteur américain Robin Williams, Come Together, sur un album hommage à George Martin, In My Life en 1998."
+  },
+  {
+    "id": 28,
+    "image": "https://groupietrackers.herokuapp.com/api/images/R3HAB.jpeg",
+    "name": "R3HAB",
+    "style": "Electro",
+    "bio": "R3hab (prononcé: [ɹiːhæb], « rehab »), de son vrai nom Fadil El Ghoul (né le 2 avril 1986 à Bréda au Brabant-du-Nord), est un DJ et producteur néerlandais1. Aux côtés d'Afrojack et de Chuckie, R3hab est l'un musicien du sous-genre musical dutch house, bien que son style soit plus sombre et quelque part inspiré des premières chansons de psytrance ou gabber. Lors de la WMC de 2012 à Miami, aux États-Unis, R3hab remporte l'IDMA Best Breakthrough Artist Award2."
+  },
+  {
+    "id": 29,
+    "image": "https://groupietrackers.herokuapp.com/api/images/postmalone.jpeg",
+    "name": "Post Malone",
+    "style": "Pop",
+    "bio": "Post Malone (prononcé en anglais: [poʊst məˈloʊn]), de son vrai nom Austin Richard Post, né le 4 juillet 1995 à Syracuse dans l'État de New York, est un chanteur, rappeur et réalisateur artistique américain. Il se fait mondialement connaître en 2015 avec le titre White Iverson qui se classe à la 14e place du Billboard Hot 1001. Après une mixtape nommée August 26th, il publie son premier album Stoney en décembre 2016. Il atteint la quatrième place du Billboard 200 et est certifié triple disque de platine aux États-Unis."
+  },
+  {
+    "id": 30,
+    "image": "https://groupietrackers.herokuapp.com/api/images/travisScott.jpeg",
+    "name": "Travis Scott",
+    "style": "Rap",
+    "bio": "Travis Scott, anciennement stylisé Travi$ Scott, de son vrai nom Jacques Bermon Webster II, né le 30 avril 1991 à Houston au Texas, est un rappeur, chanteur, producteur, musicien, acteur, mannequin et réalisateur américain. Il a aussi collaboré avec beaucoup de grandes marques. Il est signé sur les labels Grand Hustle et Epic, ainsi que sur le label de Kanye West, GOOD Music, comme producteur. Il publie sa première mixtape intitulée Owl Pharaoh le 22 mai 2013, suivie par une deuxième mixtape, Days Before Rodeo, le 18 août 2014. Son premier album, Rodeo, est publié le 4 septembre 2015 et son deuxième, Birds in the Trap Sing McKnight, sort le 2 septembre 2016. Astroworld, son troisième est publié le 3 août 2018 et Utopia, son quatrième et dernier à ce jour, est publié le 28 juillet 2023."
+  },
+  {
+    "id": 31,
+    "image": "https://groupietrackers.herokuapp.com/api/images/jCole.jpeg",
+    "name": "J. Cole",
+    "style": "Rap",
+    "bio": "J. Cole, de son vrai nom Jermaine Lamarr Cole, né le 28 janvier 1985 à Francfort-sur-le-Main en Allemagne, est un rappeur, chanteur et producteur américain. Il se fait connaître du grand public par le biais de sa signature sur le label Roc Nation de Jay-Z. Son premier album studio, Cole World: The Sideline Story, est sorti en septembre 2011 aux États-Unis."
+  },
+  {
+    "id": 32,
+    "image": "https://groupietrackers.herokuapp.com/api/images/nickelback.jpeg",
+    "name": "Nickelback",
+    "style":"Rock",
+    "bio": "Nickelback est un groupe de metal alternatif canadien originaire de l'Alberta. Le groupe est actuellement composé de Chad Kroeger au chant et à la guitare solo, de Ryan Peake à la guitare rythmique, de Mike Kroeger à la guitare basse et de Daniel Adair à la batterie et aux percussions, c'est le quatrième batteur après Ryan Vikedal, Mitch Guindon et Brandon Kroeger. Lors des tournées du groupe, Tim Dawson, le technicien guitare de Chad Kroeger connu sous le nom de Timmy, interprète plusieurs titres au piano et à la guitare. Timmy incarne le cinquième membre du groupe, il travaille avec Nickelback depuis 2003. Le style musical de Nickelback est classé dans le hard rock5, le post-grunge et le rock alternatif2."
+  },
+  {
+    "id": 33,
+    "image": "https://groupietrackers.herokuapp.com/api/images/mobbDeep.jpeg",
+    "name": "Mobb Deep",
+    "style": "Hip Hop",
+    "bio": "Mobb Deep est un groupe de hip-hop américain, originaire du quartier de Queensbridge, dans le Queens, à New York1. Composé des rappeurs Havoc et Prodigy, le groupe est en activité depuis le début des années 1990, et est notamment connu pour l'album The Infamous (1995), dont est extrait Survival of the Fittest et Shook Ones, Part II, considéré par la presse spécialisée comme l'un des meilleurs morceaux de l'histoire du hip-hop2. Mobb Deep est souvent considéré comme l'un des meilleurs groupes de rap East Coast, avec le Wu-Tang Clan, Public Enemy, De La Soul, The Fat Boys, Gang Starr, Onyx, Eric B. and Rakim, A Tribe Called Quest."
+  },
+  {
+    "id": 34,
+    "image": "https://groupietrackers.herokuapp.com/api/images/gunsNRoses.jpeg",
+    "name": "Guns N' Roses",
+    "style": "Rock",
+    "bio": "Guns N' Roses (souvent abrégé en GNR) est un groupe américain de hard rock, originaire de Los Angeles, en Californie. Formé en 1985, il se compose du chanteur Axl Rose, des guitaristes Slash et Izzy Stradlin, du bassiste Duff McKagan et du batteur Steven Adler. Aujourd'hui, le groupe est composé de sept membres : aux trois membres originaux — Axl, Slash et Duff — s'ajoutent ces quatre nouveaux, le guitariste Richard Fortus, les claviéristes Dizzy Reed et Melissa Reese, et le batteur Frank Ferrer. Le groupe est devenu en peu d'années l'un des groupes de hard rock les plus populaires, avec plus de 100 millions de disques vendus dans le monde3, dont 45 millions aux États-Unis4."
+  },
+  {
+    "id": 35,
+    "image": "https://groupietrackers.herokuapp.com/api/images/nwa.jpeg",
+    "name": "NWA",
+    "style": "Hip Hop",
+    "bio": "NWA, acronyme pour Niggaz Wit Attitudes1,2,3, stylisé N.W.A, est un groupe de hip-hop américain originaire de Compton, une ville de la banlieue sud de Los Angeles (Californie). Il fait partie des promoteurs les plus précoces et des figures les plus controversées du sous-genre gangsta rap. Le groupe est largement considéré comme l'un des plus importants et influents de l'histoire du hip-hop, et plus particulièrement du rap."
+  },
+  {
+    "id": 36,
+    "image": "https://groupietrackers.herokuapp.com/api/images/u2.jpeg",
+    "name": "U2",
+    "style": "Rock",
+    "bio": "U2 est un groupe de rock irlandais originaire de Dublin, formé en 1976. Il est composé de Bono au chant et occasionnellement à la guitare ; The Edge à la guitare, au piano et au chant ; Adam Clayton à la basse ; et Larry Mullen Jr. à la batterie."
+  },
+  {
+    "id": 37,
+    "image": "https://groupietrackers.herokuapp.com/api/images/arcticmonkeys.jpeg",
+    "name": "Arctic Monkeys",
+    "style": "Rock",
+    "bio": "Arctic Monkeys est un groupe britannique de rock indépendant originaire de Sheffield (Yorkshire du Sud) en Angleterre. Il est formé en 2002, plus précisément à High Green, une banlieue de Sheffield. Le groupe est composé d'Alex Turner (chant, guitare rythmique, guitare), de Jamie Cook (guitare solo, guitare rythmique), de Nick O'Malley (basse, chœurs), et de Matt Helders (batterie, chœurs). Ancien membre du groupe, Andy Nicholson (guitare basse, chœurs) quitte la formation en 2006, peu après la sortie du premier album."
+  },
+  {
+    "id": 38,
+    "image": "https://groupietrackers.herokuapp.com/api/images/fallOutBoy.jpeg",
+    "name": "Fall Out Boy",
+    "style": "Rock",
+    "bio": "Fall Out Boy (FOB) est un groupe de rock américain, originaire de Wilmette, près de Chicago. Formé en 2001, il est composé de Patrick Stump (chanteur, guitariste et compositeur), Pete Wentz (basse, chant et paroles), Joe Trohman (guitare et voix) et Andrew Hurley (batterie et percussions). Ils connaissent un certain succès dès leurs débuts sous label discographique avec leur premier album From Under the Cork Tree. Sorti en 2005, cet album s'est vendu à plus de 2,5 millions d'exemplaires rien qu'aux États-Unis, où il a été certifié double disque de platine. Les Fall Out Boy ont également été nommés dans la catégorie « Meilleure révélation de l'année » aux Grammy Awards 2006."
+  },
+  {
+    "id": 39,
+    "image": "https://groupietrackers.herokuapp.com/api/images/gorillaz.jpeg",
+    "name": "Gorillaz",
+    "style": "Hip Hop",
+    "bio": "Gorillaz est un groupe musical britannique dit « virtuel », formé en 1998 par Damon Albarn et Jamie Hewlett. Il est composé de quatre personnages de fiction : 2D au chant et au piano ; Murdoc Niccals à la basse ; Russel Hobbs à la batterie ; et Noodle à la guitare. En réalité, la musique est une collaboration entre de nombreux musiciens, mais implique en permanence Damon Albarn. Leur style représente plusieurs genres musicaux incluant rock, rock indépendant2, pop, britpop3, trip hop4, electronica, dub, reggae, hip-hop5et rap."
+  },
+  {
+    "id": 40,
+    "image": "https://groupietrackers.herokuapp.com/api/images/eagles.jpeg",
+    "name": "Eagles",
+    "style": "Rock",
+    "bio": "Eagles (prononcé en anglais : [ˈiɡl̩z]1) est un groupe américain de rock, originaire de Los Angeles, en Californie. Le groupe se forme en 1971 et adopte un style aux influences country et bluegrass, connu sous le nom de « West Coast Sound »."
+  },
+  {
+    "id": 41,
+    "image": "https://groupietrackers.herokuapp.com/api/images/linkinpark.jpeg",
+    "name": "Linkin Park",
+    "style": "Rock",
+    "bio": "Linkin Park (prononcé: [ˈlɪŋkɪŋ pɑːk]) est un groupe de rock et de metal américain, originaire d'Agoura Hills en Californie. Il est formé en 1996 et actuellement composé de Mike Shinoda (chant, rap, guitare rythmique et clavier), Brad Delson (guitare solo), Dave Farrell (guitare basse), Rob Bourdon (batterie) et Joe Hahn (platines, effets et mixage)."
+  },
+  {
+    "id": 42,
+    "image": "https://groupietrackers.herokuapp.com/api/images/redhotchilipeppers.jpeg",
+    "name": "Red Hot Chili Peppers",
+    "style": "Rock",
+    "bio": "Les Red Hot Chili Peppers (prononcé en anglais: [ɹɛd hɑt ˈtʃɪli ˈpɛpəz]) sont un groupe de funk rock américain, originaire de Los Angeles, en Californie, actif depuis 1982. La formation actuelle s'articule autour des membres fondateurs et amis d'enfance Anthony Kiedis (chant) et Flea (basse), auxquels se joignent en 1988 Chad Smith (batterie) et John Frusciante (guitare) qui, après avoir quitté le groupe à deux occasions, le rejoint une troisième fois en 2019. La musique des Red Hot Chili Peppers se caractérise par le mélange de plusieurs genres musicaux, tels le funk rock, le rock alternatif, le funk metal et le rap rock."
+  },
+  {
+    "id": 43,
+    "image": "https://groupietrackers.herokuapp.com/api/images/eminem.jpeg",
+    "name": "Eminem",
+    "style": "Rap",
+    "bio": "Marshall Bruce Mathers III, dit Eminem (souvent stylisé EMINƎM), né le 17 octobre 1972 à Saint Joseph dans le Missouri, est un rappeur, auteur-compositeur, producteur et acteur américain. Il est reconnu pour avoir popularisé le hip-hop parmi les classes moyennes et supérieures des États-Unis et est acclamé par la critique comme l'un des plus grands rappeurs de tous les temps1."
+  },
+  {
+    "id": 44,
+    "image": "https://groupietrackers.herokuapp.com/api/images/greenday.jpeg",
+    "name": "Green Day",
+    "style": "Punk",
+    "bio": "Green Day est un groupe de punk rock américain, originaire de Berkeley, en Californie2. Formé en 19873 sous le nom de Sweet Children avant de prendre son nom définitif en 1989, le groupe est composé à l'origine du chanteur et guitariste Billie Joe Armstrong et du bassiste Mike Dirnt, rejoints en 1988 par le batteur John Kiffmeyer, remplacé à partir de 1992 en raison d'une trop faible implication de sa part dans le groupe, par Tré Cool, que les deux amis d'enfance ont rencontré par hasard en le prenant en stop."
+  },
+  {
+    "id": 45,
+    "image": "https://groupietrackers.herokuapp.com/api/images/metallica.jpeg",
+    "name": "Metallica",
+    "style": "Metal",
+    "bio": "Metallica est un groupe de heavy metal américain originaire de Californie et considéré comme l'un des plus grands groupes de metal de tous les temps. C’est également le groupe du style à avoir vendu le plus d’albums dans le monde. Formé à Los Angeles en 1981, le groupe est composé de James Hetfield (chant, guitare rythmique) et Lars Ulrich (batterie), ainsi que du guitariste Kirk Hammett (arrivé en 1983) et du bassiste Robert Trujillo, qui a rejoint le groupe en 2003. Les précédents membres du groupe incluent Dave Mustaine (après son exclusion, membre fondateur de Megadeth), les bassistes Ron McGovney (uniquement pour les démos), Cliff Burton (pour les trois premiers albums ; décédé en 1986) et Jason Newsted (prenant la suite de Burton jusqu'à son départ du groupe en 2001 et remplacé en 2003 par Trujillo)."
+  },
+  {
+    "id": 46,
+    "image": "https://groupietrackers.herokuapp.com/api/images/coldplay.jpeg",
+    "name": "Coldplay",
+    "style": "Pop Rock",
+    "bio": "Coldplay est un groupe pop rock britannique originaire de Londres en Angleterre, formé en 1997. Il est formé par l'auteur-compositeur-interprète Chris Martin et le guitariste Jonny Buckland. Le bassiste Guy Berryman rejoint ensuite le groupe, avant que le batteur Will Champion ne vienne compléter le quatuor. Le producteur Phil Harvey s'associe à leur projet en tant que manager1. En 1998, le groupe voit le jour sous son nom définitif et sort ses deux premiers EP. Ses membres en profitent alors pour signer chez le label Parlophone2."
+  },
+  {
+    "id": 47,
+    "image": "https://groupietrackers.herokuapp.com/api/images/maroon5.jpeg",
+    "name": "Maroon 5",
+    "style": "Pop",
+    "bio": "Maroon 5 (prononcé « Maroon Five ») est un groupe de musique pop américain, originaire de Los Angeles, en Californie. Le groupe est récompensé à de nombreuses reprises pour son premier album Songs About Jane, sorti en juin 2002, qui se retrouve en tête des classements musicaux de nombreux pays. De même, leur second album, 1.22.03.Acoustic, qui reprend des titres en version acoustique de l'album Songs About Jane, est certifié disque de platine[Où ?]. Maroon 5 est en permanence en tournée depuis la formation du groupe en 1997, se produisant notamment côtés de John Mayer, Michelle Branch, Gavin DeGraw, Phantom Planet, The Like The Thrills ou encore The Donnas. Ils ont joué en première partie des Rolling Stones en août 2005."
+  },
+  {
+    "id": 48,
+    "image": "https://groupietrackers.herokuapp.com/api/images/twentyonepilots.jpeg",
+    "name": "Twenty One Pilots",
+    "style": "Rock",
+    "bio": "Twenty One Pilots (stylisé twenty øne piløts, parfois abrégé TØP) est un groupe d'indie rock américain, originaire de Columbus dans l'Ohio. Il est, à ses débuts en 2009, composé de Tyler Joseph (chant, claviers), Nick Thomas (guitare, basse) et Chris Salih (percussions). Ces deux derniers quittent le groupe en 2011 et Salih est remplacé sitôt après par Josh Dun. C'est en duo que le groupe accède à la notoriété, dès 2012. En 2017, ils gagnent un Grammy Awards pour leur performance sur leur titre Stressed Out."
+  },
+  {
+    "id": 49,
+    "image": "https://groupietrackers.herokuapp.com/api/images/therollingstones.jpeg",
+    "name": "The Rolling Stones",
+    "style": "Rock",
+    "bio": "Il est formé en 1962 par le guitariste et leader originel Brian Jones, le pianiste Ian Stewart, le chanteur Mick Jagger, le guitariste Keith Richards, le bassiste Dick Taylor et le batteur Mick Avory. Le bassiste Bill Wyman et le batteur Charlie Watts les rejoignent ensuite après les départs de Dick Taylor et Mick Avory. Ian Stewart est écarté de la formation officielle par le manager du groupe Andrew Loog Oldham dès mai 1963, mais continue à travailler (comme road manager et comme pianiste) avec le groupe jusqu'à sa mort en 1985. Jagger et Richards constituent rapidement un duo d'auteurs-compositeurs et prennent peu à peu la direction du groupe, écartant progressivement un Brian Jones de plus en plus erratique."
+  },
+  {
+    "id": 50,
+    "image": "https://groupietrackers.herokuapp.com/api/images/muse.jpeg",
+    "name": "Muse",
+    "style": "Rock",
+    "bio": "Muse (prononcé en anglais: [mjuːz]) est un groupe de rock britannique, originaire de Teignmouth, dans le Devon, en Angleterre. Apparu sur la scène musicale en 1994, le trio est composé de Matthew Bellamy (chant, guitare, piano), Christopher Wolstenholme (basse, harmonica, chant, chœurs) et Dominic Howard (batterie, percussions)."
+  },
+  {
+    "id": 51,
+    "image": "https://groupietrackers.herokuapp.com/api/images/foofighters.jpeg",
+    "name": "Foo Fighters",
+    "style": "Rock",
+    "bio": "Foo Fighters est un groupe américain de hard rock, formé à Seattle, Washington. Il est formé en 1994 durant la dissolution de Nirvana, à la suite de la mort de son leader Kurt Cobain. Dave Grohl, le batteur du groupe, se lance alors dans son projet, un album intitulé Foo Fighters sur lequel il enregistre tous les instruments à l'exception de quelques titres enregistrés avec l'aide de Krist Novoselic, ancien bassiste de Nirvana, et Pat Smear, ancien guitariste live de ce même groupe et membre des Germs."
+  },
+  {
+    "id": 52,
+    "image": "https://groupietrackers.herokuapp.com/api/images/thechainsmokers.jpeg",
+    "name": "The Chainsmokers",
+    "style": "Pop",
+    "bio": "The Chainsmokers est un duo américain de disc jockeys et producteurs, composé d'Andrew Taggart et Alex Pall, originaire de New York. En 2014, ils se font connaître grâce à leur chanson #SELFIE (en) en référence à la mode du selfie, qui intègre les tops musicaux de nombreux pays. En 2016, leur chanson Closer en compagnie de Halsey atteint la première place de Billboard Hot 100, de Canadian Hot 100 et d'Official Charts. La même année, ils font une entrée remarquée au classement du magazine DJ Mag, atteignant directement la 18e place. Ils sont invités en 2019, au plus grand spectacle électrique TomorrowLand."
+  }
+]

@@ -1,0 +1,147 @@
+/* ------------------Polices d'écritures--------------------------*/
+@font-face {
+  font-family: "Artista";
+  src: url("../font/Arista-Pro-Bold-trial.ttf");
+}
+@font-face {
+  font-family: "Rock";
+  src: url("../font/Rockabye-Regular.otf");
+}
+/* --------------------------------------------------------------*/
+
+
+/* -------------------------Body---------------------------------*/
+body {
+  background-image: url("/static/image/vinil2.png");
+  backdrop-filter: blur(1px);
+}
+/* --------------------------------------------------------------*/
+
+
+/* -------Mise en place des grille et division de la page------- */
+  .wrapper {
+    display: grid;
+    grid-template-columns: 20% 300px 1fr 20% 20%;
+    grid-gap: 15px;
+    grid-auto-rows: minmax(150px, auto);
+  }
+/* --------------------------------------------------------------*/
+
+
+/* ----------------Block: Logo, Titre et ------------------------*/
+/* .LogoTitle {
+} */
+.LogoTitle {
+  display: flex;
+  align-items: center;
+  -webkit-text-stroke: 0.5px rgb(24, 146, 99);
+  font-size: 2vw;
+  color: transparent;
+  background: linear-gradient(to right, rgb(87, 241, 87), rgb(30, 236, 209));
+  background-clip: text;
+  padding-left: 4%;
+} 
+.Logo {
+  width: 3%;
+  margin-right: 10px;
+  margin-left: 1%;
+  margin-bottom: 10px;
+}
+.Title {
+  font-family: "Artista";
+}
+
+.button{
+margin-left: 20%;
+font-family: "Artista";
+display: flex;
+align-items: center;
+-webkit-text-stroke: 0.5px rgb(24, 146, 99);
+font-size: 2vw;
+color: transparent;
+background: linear-gradient(to right, rgb(87, 241, 87), rgb(30, 236, 209));
+background-clip: text;
+padding-left: 4%;
+}
+
+.Title:hover {
+  cursor: pointer;
+}
+/* --------------------------------------------------------------*/
+
+/* Infos de la structure importée */
+/* 
+.GroupImg {
+  grid-column: 2;
+  grid-row: 2;
+  border-radius: 30px;
+  border-radius: 10%;
+  width: clamp(200px, 20vw, 200px);
+  border : 4px solid #ffffff;
+  justify-items: center;
+  place-self: center;
+
+} */
+
+.GroupInfo {
+  font-family:Arista;
+  grid-column: 2/5;
+  grid-row: 2;
+  background-color: rgba(83, 83, 83, 0.205);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border : 1px solid #ffffff;
+  text-align: center; /* center the text horizontally */
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/* --------------------Adaptatibilité ---------------------------*/
+@media (max-width: 650px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+/* --------------------------------------------------------------*/
+
+.bio{
+  grid-column: 2/5;
+  grid-row: 3;
+  letter-spacing: 1px;
+  font-size: 15px;
+  background-color: rgba(83, 83, 83, 0.205);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border : 1px solid #ffffff;
+  text-align: center; /* center the text horizontally */
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.Concert{
+  grid-column: 2/3;
+  grid-row: 4/6;
+  letter-spacing: 1px;
+  font-size: 15px;
+  background-color: rgba(83, 83, 83, 0.205);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border : 1px solid #ffffff;
+  text-align: center; /* center the text horizontally */
+  color: white;
+}
+.h1{
+  
+  font-family: "Rock";
+  letter-spacing: 3px;
+  font-size: 35px;
+  text-align: center;
+  padding-left: 30px;
+  padding: 0 30px;
+  position: relative;
+  color: white;
+}

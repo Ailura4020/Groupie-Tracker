@@ -1,0 +1,343 @@
+/* ------------------Polices d'écritures--------------------------*/
+@font-face {
+  font-family: "Rock";
+  src: url("../font/Arista-Pro-Bold-trial.ttf");
+}
+@font-face {
+  font-family: "Neon";
+  src: url("../font/Neon.ttf");
+}
+/* --------------------------------------------------------------*/
+
+/* -------------------------Body---------------------------------*/
+body {
+  background-image: url("/static/image/vinil2.png");
+  backdrop-filter: blur(1px);
+  background-color: rgba(39, 39, 39, 0.562);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+/* --------------------------------------------------------------*/
+
+/* ---------Block: Logo, Titre et Searchbar ---------------------*/
+.LogoTitle {
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
+} 
+.Logo {
+  width: 3%;
+  margin-right: 10px;
+  margin-left: 1%;
+  margin-bottom: 10px;
+}
+.LogoTitle form {
+  display: flex;
+  align-items: center;
+}
+.Title {
+  color: transparent;
+  font-family: "Rock";
+  background: linear-gradient(to right, rgb(87, 241, 87), rgb(30, 236, 209));
+  background-clip: text;
+  -webkit-text-stroke: 1px rgb(87, 241, 87, 0.5);
+  font-size: 3.5vw;
+  margin-right: 2%;
+  text-shadow: 1px 1px 0 rgba(87, 241, 87, 0.5),
+               -1px -1px 0 rgba(30, 236, 209, 0.5);
+}
+.Title:hover {
+  cursor: pointer;
+}
+.Filters {
+  font-family: "Neon";
+  font-size: 1vw;
+  color: white;
+  margin-left: 3%;
+  margin-top: -2%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+.grid-item {
+  display: flex;
+  flex-direction: column;
+}
+.grid-item p {
+  margin: 0;
+}
+.checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.date-inputs {
+  display: flex;
+}
+.Search {
+  font-family: "Neon";
+  font-size: 1vw;
+  margin-left: 8%;
+}
+.Filters2 {
+  font-family: "Neon";
+  font-size: 1vw;
+  color: rgb(48, 48, 48);
+}
+input[name="submitfilter"] {
+  font-family: "Neon";
+  font-size: 1vw;
+  width: 50%;
+  margin-top: 7%;
+  border-radius: 8%;
+}
+input[name="submitsearch"] {
+  font-family: "Neon";
+  font-size: 1vw;
+  width: 50%;
+  border-radius: 8%;
+  padding-left: 3%;
+}
+.MembersLabel {
+  font-family: "Neon";
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* --------------------------------------------------------------*/
+.Line1 {
+  height: 7px;
+  background-color: rgba(48, 48, 48, 0.575);
+  border-radius: 20%;
+  margin-bottom: 3%;
+  margin-top: -1.5%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.Line {
+  height: 7px;
+  background-color: rgba(48, 48, 48, 0.575);
+  border-radius: 20%;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+/* --------Block Principal regroupant les artistes-------------- */
+.MainBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.MainBlock > .GroupInfo {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.checkboxes {
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+.GroupInfo {
+  font-size: fit-content;
+  background-color: rgba(83, 83, 83, 0.205);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border : 2.5px solid #363636c4;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  margin-top: -1%;
+  padding-bottom: 0.5%;
+  text-align: center; /* center the text horizontally */
+  word-break: break-word; /* allow the text to wrap to the next line */
+  overflow-wrap: break-word;
+  font-size-adjust: inherit;
+  color: white;
+  font-family: "Neon";
+  margin-right: 30px;
+  width: 10vw;
+  font-size: 2vw;
+}
+.GroupInfo:hover {
+  background-color: rgba(140, 140, 140, 0.205);
+  backdrop-filter: blur(10px);
+  border : 2.5px solid #8e8e8ec4;
+}  
+.GroupName {
+  font-size: 1.2vw;
+  text-align: center; 
+  color: white;
+  -webkit-text-stroke: 0.05px rgb(226, 226, 226);
+  font-family: "Neon";
+  font-weight: bold;
+  margin-top: -2%;
+}
+.GroupStyle {
+  color: rgb(202, 202, 202);
+  -webkit-text-stroke: 0.3px rgb(39, 39, 39);
+  font-size: 0.8vw;
+  font-family: "Neon";
+  margin-top: -10%;
+}
+.GroupImg {
+  justify-content: end;
+  border-radius: 30px;
+  border : 4px solid #080808c4;
+  margin-bottom: -5%;
+  width: 9vw;
+}
+
+/* ----------------------Responsive------------------------------*/
+@media (max-width: 900px) {
+  body {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .Title {
+    font-size: 35px;
+    -webkit-text-stroke: 0px rgb(255, 255, 255);
+  }
+  .Logo {
+    width: 40px;
+  }
+  .Search {
+    font-size: 15px;
+    width: 80px;
+    height: 12px;
+  }
+  input[name="submitfilter"] {
+    font-size: 14px;
+    width: 80px;
+    height: 22px;
+  }
+  input[name="submitsearch"] {
+    font-size: 14px;
+    width: 80px;
+    height: 22px;
+  }
+  .Filters2 {
+    font-size: 12px;
+  }
+  .GroupInfo {
+    width: 120px;
+  }
+  .GroupImg {
+    width: 110px;
+    border-radius: 15%;
+  }
+  .GroupName {
+    font-size: 18px;
+    -webkit-text-stroke: 0px rgb(255, 255, 255);
+  }
+  .GroupStyle {
+    font-size: 17px;
+    -webkit-text-stroke: 0px rgb(255, 255, 255);
+  }
+  .Filters {
+    font-size: 15px;
+    margin-left: 2%;
+  }
+  .checkboxes {
+    flex-wrap: wrap;
+  }
+  .date-inputs {
+    flex-wrap: wrap;
+  }
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-item {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .Search {
+    font-size: 12px;
+    width: 60px;
+    height: 10px;
+  }
+  input[name="submitfilter"] {
+    font-size: 12px;
+    width: 60px;
+    height: 18px;
+  }
+  input[name="submitsearch"] {
+    font-size: 12px;
+    width: 60px;
+    height: 18px;
+  }
+  .GroupInfo {
+    width: 80px;
+  }
+  .GroupImg {
+    width: 60px;
+    border-radius: 15%;
+  }
+  .Filters {
+    font-size: 15px;
+    margin-left: 1%;
+  }
+  .checkboxes {
+    flex-wrap: wrap;
+    font-size: 15px;
+  }
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-item {
+    margin-bottom: 10px;
+  }
+  .GroupName {
+    font-size: 14px;
+    font-weight: lighter;
+    -webkit-text-stroke: 0px rgb(255, 255, 255);
+  }
+  .GroupStyle {
+    font-size: 13px;
+    font-weight: lighter;
+    -webkit-text-stroke: 0px rgb(255, 255, 255);
+  }
+}
+@media (max-width: 400px) {
+  .Search {
+    font-size: 10px;
+    width: 60px;
+    height: 9px;
+  }
+  input[name="submitfilter"] {
+    margin-top: 15px;
+  }
+  .Filters2 {
+    font-size: 15px;
+    margin-left: 1%;
+  }
+  .Title {
+    font-size: 35px;
+  }
+  .Logo {
+    width: 30px;
+  }
+  .loc {
+    margin-left: 3%;
+  }
+  .GroupName {
+    font-size: 10px;
+    -webkit-text-stroke: 0px rgb(255, 255, 255);
+    font-weight: lighter;
+  }
+  .GroupStyle {
+    font-size: 8px;
+    -webkit-text-stroke: 0px rgb(255, 255, 255);
+    font-weight: lighter;
+  }
+} 
+/* --------------------------------------------------------------*/

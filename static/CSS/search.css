@@ -1,0 +1,70 @@
+/* ------------------Polices d'écritures--------------------------*/
+@font-face {
+    font-family: "Artista";
+    src: url("../font/Arista-Pro-Bold-trial.ttf");
+  }
+  @font-face {
+    font-family: "Rock";
+    src: url("../font/Rockabye-Regular.otf");
+  }
+  /* --------------------------------------------------------------*/
+  
+  
+  /* -------------------------Body---------------------------------*/
+  body {
+    background-image: url("/static/image/vinil2.png");
+    backdrop-filter: blur(1px);
+  }
+  /* --------------------------------------------------------------*/
+  
+  
+  /* -------Mise en place des grille et division de la page------- */
+    .wrapper {
+      display: grid;
+      grid-template-columns: 20% 300px 1fr 20% 20%;
+      grid-gap: 15px;
+      grid-auto-rows: minmax(150px, auto);
+    }
+  /* --------------------------------------------------------------*/
+  
+  
+  /* ----------------Block: Logo, Titre et ------------------------*/
+  /* .LogoTitle {
+  } */
+  .LogoTitle {
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke: 0.5px rgb(24, 146, 99);
+    font-size: 2vw;
+    color: transparent;
+    background: linear-gradient(to right, rgb(87, 241, 87), rgb(30, 236, 209));
+    background-clip: text;
+    padding-left: 4%;
+  } 
+  .Logo {
+    width: 3%;
+    margin-right: 10px;
+    margin-left: 1%;
+    margin-bottom: 10px;
+  }
+  .Title {
+    font-family: "Artista";
+  }
+  
+  .button{
+  margin-left: 20%;
+  font-family: "Artista";
+  display: flex;
+  align-items: center;
+  -webkit-text-stroke: 0.5px rgb(24, 146, 99);
+  font-size: 2vw;
+  color: transparent;
+  background: linear-gradient(to right, rgb(87, 241, 87), rgb(30, 236, 209));
+  background-clip: text;
+  padding-left: 4%;
+  }
+  
+  .Title:hover {
+    cursor: pointer;
+  }
+  /* --------------------------------------------------------------*/

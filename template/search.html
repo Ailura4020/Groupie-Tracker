@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Groupify</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='/static/CSS/index.css' crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+  <div class="LogoTitle">
+    <a href="/" style="text-decoration: none;">
+      <h1 class="Title">Groupify</h1>
+    </a>
+    <!-- <form action="/search" method="get">
+      <input id="search-input" class="Search" name="q" type="text" placeholder="Search..">
+      <input type="submit" value="Search" name="submitsearch">
+    </form> -->
+    <form action="/search" method="get" autocomplete="off">
+      <input id="search-input" class="Search" name="q" type="text" placeholder="Search.." list="suggestions">
+      <datalist id="suggestions">
+        {{range .Suggestions}}
+          <option value="{{.Value}}" data-url="{{.URL}}">{{.Display}}</option>
+        {{end}}
+      </datalist>
+      <input type="submit" value="Search" name="submitsearch">
+    </form>
+    
+  </div>
+  <div class="Line1"></div>
+  <div class="Filters">
+    <form action="/filters" method="get" class="Filters">
+      <div class="grid-container">
+        <div class="grid-item">
+          <p>Members:</p>
+          <div class="checkboxes">
+            <input type="checkbox" name="members" value="1"> 1
+            <input type="checkbox" name="members" value="2"> 2
+            <input type="checkbox" name="members" value="3"> 3
+            <input type="checkbox" name="members" value="4"> 4
+            <input type="checkbox" name="members" value="5"> 5
+            <input type="checkbox" name="members" value="6"> 6
+            <input type="checkbox" name="members" value="7"> 7
+          </div>
+        </div>
+        <div class="grid-item">
+          <p>Creation date:</p>
+          <div class="date-inputs">
+            <input type="number" name="mincreation" value="1958" min="1958" max="2015" class="Filters2"> -
+            <input type="number" name="maxcreation" value="2015" min="1958" max="2015" class="Filters2">
+          </div>
+        </div>
+        <div class="grid-item">
+          <p>First Album:</p>
+          <div class="date-inputs">
+            <input type="number" name="mindate" value="1963" min="1963" max="2018" class="Filters2"> -
+            <input type="number" name="maxdate" value="2018" min="1963" max="2018" class="Filters2">
+          </div>
+        </div>
+        <div class="grid-item">
+          <p>Location:</p>
+          <input class="Search" name="location" type="text" placeholder="Search..">
+        </div>
+        <div class="grid-item">
+          <input type="submit" value="Filter" name="submitfilter">
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="Line"></div>
+  <div class="MainBlock">
+    {{range .AI}}
+    <div class="GroupInfo">
+      <p class="GroupName">{{ .Name }}</p>
+      <a href="/artists?id={{.Id}}">
+        <img class="GroupImg" src="{{.Image}}">
+      </a>
+    </div>
+    {{end}}
+  </div>
+</body>
+</html>
